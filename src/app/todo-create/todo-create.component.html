@@ -1,0 +1,14 @@
+<br>
+<table class="center" style="width: 600px;float:center;">
+    <tr>
+        <td>Todo</td>
+        <td>Description</td>
+        <td>Date</td>
+    </tr>
+    <tr>
+        <td><input type="text" [(ngModel)]="todo"></td>
+        <td><input type="text" [(ngModel)]="desc"></td>
+        <td><input type="date" [(ngModel)]="date"></td>
+        <td><button class="btn btn-primary" (click)="addTodo()">Add Todo</button></td>
+    </tr>
+</table>

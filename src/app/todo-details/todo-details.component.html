@@ -1,0 +1,15 @@
+    
+    <table class="center" style="width: 500px;" >
+        <tr>
+        <th>Sl No</th>
+        <th>Task</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Status</th>
+        </tr>
+        <tr *ngFor="let n of title;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{n.todo}}</td> <td>{{n.desc}}</td> <td>{{n.date}}</td> <td> <mat-checkbox> </mat-checkbox> </td> 
+        </tr>
+    </table>    
+
